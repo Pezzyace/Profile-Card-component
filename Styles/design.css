@@ -1,0 +1,154 @@
+p, body{
+  font-size: 15px;
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  background-size: 1000px , 1000px;
+  background-position: -350px -600px, 700px 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page{
+  width: 350px;
+}
+.bg12{
+  height: 750px;
+  margin-top: -250px;
+  margin-left: -100px;
+}
+.body, .middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.body{
+  margin: 90px 0px;
+}
+.top{
+  height: 140px;
+}
+.bg1{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.middle{
+  background-color: white;
+  width: 350px;
+}
+.profile-photo{
+  background-color: white;
+  border-radius: 100px;
+  margin: -55px 0px 0px 0px;
+  padding: 5px;
+  height: 110px;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.name{
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-right:  12px;
+}
+.age{
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+}
+.location{
+  color: hsl(227, 10%, 46%);
+  margin-bottom: 25px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding: 30px 50px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-top-color: hwb(227 42% 49% / 0.466);
+  margin-top: -1px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  z-index: 30;
+}
+.followers-tag, .likes-tag, .photos-tag{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-of-followers, .no-of-likes, .no-of-photos{
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.followera, .likes, .photos{
+  font-size: 13px;
+  font-weight: 400px;
+  color: hsl(227, 10%, 46%);
+}
+
+
+.bg131{
+  display: flex;
+  justify-content: end;
+  margin-top: -145px;
+  position: relative;
+  z-index: 20;
+  height: 320px;
+}
+.bg13{
+  height: 700px;
+}
+
+
+@media (max-width: 375px){
+  .page{
+    width: 375px;
+    margin-top: 50px;
+  }
+  body{
+    background-size: 500px, 500px;
+    background-position: -321px -218px, 209px 319px;
+  }
+  .bg12{
+    height: 400px;
+    margin: -200px 0px 0px -200px;
+  }
+  .body{
+    margin: 50px 0px 20px 0px;
+  }
+  .bg13{
+    height: 400px;
+    margin-top: 20px;
+    margin-right: -200px;
+  }
+  .top{
+    height: 132px;
+  }
+  .bg1{
+    width: 330px;
+  }
+  .middle{
+    width: 330px;
+  }
+  .bottom{
+    width: 230px;
+  }
+}
